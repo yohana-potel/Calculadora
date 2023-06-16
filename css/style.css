@@ -16,7 +16,7 @@
 
 
 }
-.botones-calculadora{
+.botonesCalculadora{
     display:grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: 100px repeat(5 , 1fr);
@@ -28,7 +28,7 @@
 
   }
 
-.botones-calculadora :hover{
+.botonesCalculadora :hover{
   background-color: #4E3636;
 
 }
