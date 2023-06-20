@@ -38,6 +38,8 @@ function multiplicacion(a, b) {
   return a * b;
 }
 
+
+
 // Evento para los botones numéricos
 cero.addEventListener('click', () => {
   valorActual.innerText += '0';
@@ -78,6 +80,7 @@ ocho.addEventListener('click', () => {
 nueve.addEventListener('click', () => {
   valorActual.innerText += '9';
 });
+
 
 // Eventos de los botones de operación
 sumar.addEventListener('click', () => {
@@ -130,6 +133,7 @@ igual.addEventListener('click', () => {
   valorAnterior = null;
   valorActual.innerText = '';
 });
+
 
 // Evento para el botón de borrar
 borrar.addEventListener('click', () => {
